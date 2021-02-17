@@ -27,9 +27,9 @@ function setup() {
 function draw() {
   rectMode(CENTER);
   background(230);
- 
+  
  if(keyDown("space")){
-	 paper1.setVelocity=(4,3)
+	 paper1.setVelocity=(-12,13);
  }
   groundObject.display();
   dustbinObj.display();
