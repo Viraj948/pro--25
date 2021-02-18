@@ -19,8 +19,6 @@ class Paper {
      
       push();
       translate(pos.x, pos.y);
-     
-     
       imageMode(CENTER);
       image( this.image,0,0,this.r,this.r);
       pop()
